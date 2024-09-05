@@ -1,4 +1,5 @@
 package Base;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -10,6 +11,7 @@ public class BaseClass {
     public WebDriver driver;
 
     @BeforeClass
+    @Owner("Yahya")
 
     public void setUp()
     {
